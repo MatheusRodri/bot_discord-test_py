@@ -12,6 +12,7 @@ Antes de executar o projeto, certifique-se de ter os seguintes requisitos instal
 - Python 3.8 ou superior
 - Conta no Discord e um servidor para testar o bot
 - Token do bot do Discord
+- Anaconda
 
 ---
 
@@ -31,8 +32,8 @@ O projeto foi construído com as seguintes tecnologias:
 Siga os passos abaixo para rodar o projeto localmente:
 
 - Clone ou baixe o repositório
-- Navegue até o diretório do projeto
-- Instale as dependências com `pip install -r requirements.txt`
+- Navegue até o diretório do projeto pelo terminal
+- Crie e instale as dependências do ambiente virtual rodando o seguinte comando `conda env create -f environment.yml`
 - Renomeie o arquivo `.env.copy` para `.env` e adicione seu token do bot
 - Execute o bot com o comando `python bot.py`
 
